@@ -2,7 +2,7 @@
 
 
 from backends.views.people  import people
-
+from backends.views.envs import envs, items
 # Let's just use the local mongod instance. Edit as needed.
 
 # Please note that MONGO_HOST and MONGO_PORT could very well be left
@@ -28,9 +28,18 @@ ESOURCE_METHODS = ['GET', 'POST', 'DELETE']
 ## individual items  (defaults to read-only item access).
 ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 
+# RENDERERS = [
+#     'eve.render.JSONRenderer',
+#     'eve.render.XMLRenderer'
+# ]
+#cros
+#X_DOMAINS_RE = ['^http://sub-\d{3}\.example\.com$']
 
-
+#jsonp
+#JSON_ARGUMENT = 'callback'
 
 DOMAIN = {
-        'people': people
+        'people': people,
+        'envs': envs,
+        'items': items,
         }

@@ -21,6 +21,7 @@ sys.setdefaultencoding("utf-8")
 
 from flask_script import Manager
 from eve import Eve
+from eve_swagger import swagger, add_documentation
 
 
 
@@ -42,6 +43,37 @@ else:
 #app = Flask(__name__)
 #app = Eve(auth=MyBasicAuth)
 app = Eve()
+app.register_blueprint(swagger)
+# required. See http://swagger.io/specification/#infoObject for details.
+app.config['SWAGGER_INFO'] = {
+    'title': 'My Supercool API',
+    'version': '1.0',
+    'description': 'an API description',
+    'termsOfService': 'my terms of service',
+    'contact': {
+        'name': 'evedemo',
+        'url': 'https://github.com/gbsnaker/evedemo'
+    },
+    'license': {
+        'name': 'BSD',
+        'url': 'https://github.com/pyeve/eve-swagger/blob/master/LICENSE',
+    },
+    'schemes': ['http', 'https'],
+}
+
+# optional. Will use flask.request.host if missing.
+app.config['SWAGGER_HOST'] = '127.0.0.1'
+
+# optional. Add/Update elements in the documentation at run-time without deleting subtrees.
+add_documentation({'paths': {'/status': {'get': {'parameters': [
+    {
+        'in': 'query',
+        'name': 'foobar',
+        'required': False,
+        'description': 'special query parameter',
+        'type': 'string'
+    }]
+}}}})
 
 # configure your app
 

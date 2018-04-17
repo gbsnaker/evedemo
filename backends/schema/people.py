@@ -31,7 +31,8 @@ peopleschema = {
         },
     },
     'born': {
-        'type': 'datetime',
+        #'type': 'datetime',
+        'type': 'string',
     },
 }
 
