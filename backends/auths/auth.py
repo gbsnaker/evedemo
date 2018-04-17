@@ -26,7 +26,7 @@ class BCryptAuth(BasicAuth):
             bcrypt.hashpw(password, account['password']) == account['password']
 
 
-#Basic Authentication with SHA1/HMAC¶
+#Basic Authentication with SHA1/HMAC
 class Sha1Auth(BasicAuth):
     def check_auth(self, username, password, allowed_roles, resource, method):
         # use Eve's own db driver; no additional connections/resources are used
@@ -78,7 +78,7 @@ class RolesAuth(BasicAuth):
 
 
 
-#User-Restricted Resource Access¶
+#User-Restricted Resource Access
 class BCryptAuth(BasicAuth):
      def check_auth(self, username, password, allowed_roles, resource, method):
          # use Eve's own db driver; no additional connections/resources are used
@@ -105,4 +105,4 @@ class MyBasicAuth(BasicAuth):
         return username is not None and password == 'secret'
 
 
-#OAuth2 Integration¶
+#OAuth2 Integration
