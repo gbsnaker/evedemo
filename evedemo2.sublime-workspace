@@ -1,0 +1,581 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"P",
+				"PIPE\tstatement"
+			],
+			[
+				"p",
+				"password\tstatement"
+			],
+			[
+				"jv",
+				"jvmoption\tstatement"
+			],
+			[
+				"res",
+				"result_dict\tstatement"
+			],
+			[
+				"goup",
+				"groups\tstatement"
+			],
+			[
+				"che",
+				"checkPortCmd_local\tstatement"
+			],
+			[
+				"check",
+				"checkPortCmd"
+			],
+			[
+				"grou",
+				"groups\tstatement"
+			],
+			[
+				"pro",
+				"proGroup\tstatement"
+			],
+			[
+				"pr",
+				"property\tclass"
+			],
+			[
+				"all",
+				"allProjectInit\tstatement"
+			],
+			[
+				"ch",
+				"check_dns\tstatement"
+			],
+			[
+				"host",
+				"hosts"
+			],
+			[
+				"scr",
+				"script\t<script>"
+			],
+			[
+				"Pa",
+				"PageHeaderLayout.js"
+			],
+			[
+				"Bs",
+				"BasicLayout.js"
+			],
+			[
+				"in",
+				"index.js\n"
+			],
+			[
+				"style",
+				"style\t<style>"
+			],
+			[
+				"script",
+				"script\t<script>"
+			],
+			[
+				"File",
+				"FileHandler\tclass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "evedemo.sublime-project",
+			"settings":
+			{
+				"buffer_size": 225,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 613.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tom/projects/evedmeo"
+	],
+	"file_history":
+	[
+		"/home/tom/projects/systeminvoker/newServiceCheck/hosts",
+		"/home/tom/projects/systeminvoker/newServiceCheck/grayproduct",
+		"/home/tom/projects/systeminvoker/newServiceCheck/hosts.json",
+		"/home/tom/projects/systeminvoker/newServiceCheck/parseHost.py",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Need/Needs.js",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Blog/Articles.js",
+		"/home/tom/文档/mongotest.js",
+		"/home/tom/文档/mongtotest.py",
+		"/home/tom/桌面/flask test",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Need/Needs.less",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Need/need-create.js",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Need/need-create.less",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/routes/Blog/Articles.less",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/layouts/BasicLayout.js",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/common/nav.js",
+		"/home/tom/projects/flask_react/Flask-React-antd/client/src/theme.js",
+		"/home/tom/projects/flask_react/Flask-React-antd/server/config.py",
+		"/home/tom/projects/next/next-with-antd/pages/test.js",
+		"/home/tom/projects/next/next-with-antd/components/layout.js",
+		"/home/tom/projects/dvapro/prodemo/demo/src/common/router.js",
+		"/home/tom/projects/dvapro/prodemo/demo/src/common/menu.js",
+		"/home/tom/projects/dvapro/my-project/node01/src/routes/Dashboard/Test.less",
+		"/home/tom/projects/dvapro/my-project/node01/src/router.js",
+		"/home/tom/projects/dvapro/my-project/node01/src/routes/Dashboard/Test.js",
+		"/home/tom/projects/dvapro/my-project/node01/src/common/router.js",
+		"/home/tom/projects/dvapro/my-project/node01/src/common/menu.js",
+		"/home/tom/projects/dva/dva-quickstart/src/index.js",
+		"/home/tom/projects/dva/dva-quickstart/src/routes/Products.js",
+		"/home/tom/projects/dva/dva-quickstart/src/components/ProductList.js",
+		"/home/tom/projects/dva/dva-quickstart/src/models/products.js",
+		"/home/tom/projects/dva/dva-quickstart/src/index.ejs",
+		"/home/tom/projects/dva/dva-quickstart/src/router.js",
+		"/home/tom/projects/dva/dva-quickstart/src/components/Test.js",
+		"/home/tom/projects/dva/dva-quickstart/src/routes/Test.js",
+		"/home/tom/projects/django_rest/frontend/src/reducers/index.js",
+		"/home/tom/projects/django_rest/frontend/src/util/Auth.js",
+		"/home/tom/projects/django_rest/frontend/src/util/ApiClient.js",
+		"/home/tom/projects/django_rest/frontend/src/config/Api.js",
+		"/home/tom/projects/django_rest/frontend/src/App.css",
+		"/home/tom/projects/django_rest/frontend/src/store.js",
+		"/home/tom/projects/django_rest/backend/backend/urls.py",
+		"/home/tom/projects/django_rest/backend/backend/settings.py",
+		"/home/tom/projects/django_rest/backend/api/urls.py",
+		"/home/tom/projects/dvapro/my-project/simple_test/simple_test/public/index.html",
+		"/home/tom/projects/dvapro/my-project/simple_test/simple_test/src/routes/List/TableList.js",
+		"/home/tom/projects/dvapro/my-project/simple_test/simple_test/src/components/StandardFormRow/index.js",
+		"/home/tom/projects/dvapro/my-project/simple_test/simple_test/src/components/StandardTable/index.js",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/components/ImageWrapper/index.js\n",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/common/nav.js",
+		"/home/tom/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/tom/.config/sublime-text-3/Packages/User/jsfmt.sublime-settings",
+		"/home/tom/.config/sublime-text-3/Packages/User/Babel.sublime-settings",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/components/ImageWrapper/index.less",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/components/NoticeIcon/index.js",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/routes/Newpage.less",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/routes/Newpage.js",
+		"/home/tom/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/tom/projects/dvapro/my-project/ant-design-pro-template/src/index.js",
+		"/home/tom/桌面/到 projects 的链接/systeminvoker (复件)/vega/vega01.py",
+		"/home/tom/桌面/到 projects 的链接/vue/vue-vaga/demo01/src/components/Dashboard.vue",
+		"/home/tom/桌面/到 projects 的链接/vue/vue-vaga/demo01/src/App.vue",
+		"/home/tom/桌面/到 projects 的链接/vue/vue-vaga/demo01/src/components/HelloWorld.vue",
+		"/home/tom/桌面/到 projects 的链接/vue/vue-vaga/demo01/src/router/index.js",
+		"/home/tom/桌面/到 projects 的链接/vue/vue-vaga/demo01/src/main.js",
+		"/home/tom/projects/systeminvoker (复件)/vega/vega/serivices_services_start.py",
+		"/home/tom/桌面/mount",
+		"/home/tom/下载/document.json",
+		"/home/tom/桌面/到 projects 的链接/pythons/systeminvoker/hosts",
+		"/home/tom/桌面/到 projects 的链接/pythons/systeminvoker/新文件",
+		"/home/tom/projects/d3tree/less01/treeData.json",
+		"/home/tom/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+		"/home/tom/桌面/到 projects 的链接/vue/less01/my-project/src/App.vue"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "evedemo.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 145,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										224,
+										225
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 110.0
+	},
+	"output.exec":
+	{
+		"height": 307.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 254.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "evedemo2.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 424.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "virtualenv": "venv",
+    "build_systems": [
+      {
+      "name": "Evabuild",
+      "shell_cmd": "venv/bin/python -u \"$file\""
+      }
+    ]
+}
