@@ -1,0 +1,23 @@
+
+{
+    "build_systems":
+    [
+        {
+            "name": "Anaconda Python Builder for evedemo",
+            "selector": "source.python",
+            "shell_cmd": "/home/tom/projects/evedmeo/venv/bin/python -u \"$file\""
+        }
+    ],
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "home/tom/projects/evedmeo"
+        }
+    ],
+    "virtualenv": "/home/tom/projects/evedmeo/venv",
+    "settings":
+    {
+        "python_interpreter": "/home/tom/projects/evedmeo/venv/bin/python"
+    }
+}
