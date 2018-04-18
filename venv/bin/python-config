@@ -1,4 +1,4 @@
-#!/home/tom/projects/evedmeo/venv/bin/python
+#!/home/tom/projects/evedemo/venv/bin/python
 
 import sys
 import getopt

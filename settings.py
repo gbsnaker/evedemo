@@ -38,6 +38,15 @@ ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 #jsonp
 #JSON_ARGUMENT = 'callback'
 
+#docker run -p 8888:8080 swaggerapi/swagger-ui
+
+# X_DOMAINS = ['http://localhost:8000',  # The domain where Swagger UI is running
+#              'http://editor.swagger.io',
+#              'http://petstore.swagger.io']
+X_DOMAINS = ['http://127.0.0.1:8888']
+X_HEADERS = ['Content-Type', 'If-Match']  # Needed for the "Try it out" buttons
+
+
 DOMAIN = {
         'people': people,
         'envs': envs,

@@ -63,7 +63,7 @@ app.config['SWAGGER_INFO'] = {
 
 # optional. Will use flask.request.host if missing.
 app.config['SWAGGER_HOST'] = '127.0.0.1'
-
+#/api-docs
 # optional. Add/Update elements in the documentation at run-time without deleting subtrees.
 add_documentation({'paths': {'/status': {'get': {'parameters': [
     {
