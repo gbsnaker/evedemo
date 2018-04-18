@@ -3,6 +3,7 @@
 
 from backends.views.people  import people
 from backends.views.envs import envs, items
+from backends.views.accounts import accounts
 # Let's just use the local mongod instance. Edit as needed.
 
 # Please note that MONGO_HOST and MONGO_PORT could very well be left
@@ -48,6 +49,7 @@ X_HEADERS = ['Content-Type', 'If-Match']  # Needed for the "Try it out" buttons
 
 
 DOMAIN = {
+        'accounts': accounts,
         'people': people,
         'envs': envs,
         'items': items,
